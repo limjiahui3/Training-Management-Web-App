@@ -1,0 +1,45 @@
+.flex {
+  display: flex;
+}
+
+.flex-1 {
+  flex: 1;
+  padding: 20px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Flush buttons to the left */
+  background-color: #e0f7fa; /* Nice blue container */
+  padding: 20px;
+  border-radius: 5px;
+  width: auto; /* Adjust the width */
+}
+
+.select-container {
+  display: flex;
+  flex-direction: row; /* Display selects in a row */
+  gap: 10px; /* Space between each select */
+  margin-bottom: 5px; /* Reduced space between select container and buttons */
+}
+
+.select-container select {
+  padding: 5px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9; /* Light background for the select boxes */
+}
+
+.generate-button-container {
+  display: flex;
+  justify-content: flex-start; /* Align button to the start (left) */
+  padding: 5px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+table {
+  margin-top: 20px;
+}
+/*commit*/

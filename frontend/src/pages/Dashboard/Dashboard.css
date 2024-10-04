@@ -1,0 +1,37 @@
+.dashboard-container {
+  display: flex;
+  height: 100vh;
+}
+
+.dashboard-content {
+  flex-grow: 1;
+  padding: 20px;
+  overflow: auto;
+}
+
+#dashboard-table,  .stats-container {
+  zoom: 0.85;
+}
+
+
+
+.dashboard-generate-button-container {
+  background-color: #ffcccb; /* Light red container */
+  padding: 10px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 20px; /* Add margin to create space */
+}
+
+.dashboard-generate-button {
+  background-color: #ff6666; /* Light red button background */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.dashboard-generate-button:hover {
+  background-color: #cc0000; /* Darker red on hover */
+}
